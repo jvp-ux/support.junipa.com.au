@@ -1,0 +1,10 @@
+name = "support-junipa-com-au"
+type = "webpack"
+account_id = "your-cloudflare-account-id"
+workers_dev = true
+route = "support.junipa.com.au/*"
+main = "workers-site/index.js"
+zone_id = "your-cloudflare-zone-id"
+
+[site]
+bucket = "./build"
