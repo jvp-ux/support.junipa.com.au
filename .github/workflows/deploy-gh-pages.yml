@@ -26,7 +26,8 @@ jobs:
         run: ls -la ./build
       - name: Upload Build Artifact
         uses: actions/upload-artifact@v2
-        with:          
+        with:
+          name: build-artifact
           path: build
 
   deploy:
@@ -46,7 +47,7 @@ jobs:
       - name: Download Build Artifact
         uses: actions/download-artifact@v2
         with:
-          name: build
+          name: build-artifact
           path: build
       - name: Deploy to GitHub Pages
         id: deployment
