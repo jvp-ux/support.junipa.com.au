@@ -8,9 +8,9 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
-  favicon: 'img/favicon.ico',
+  title: 'Junipa support',
+  tagline: 'An NCCD (Nationally Consistent Collection of Data) app designed to help schools manage and streamline their data collection, planning, and reporting for students with disabilities.',
+  favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
   url: 'https://jvp-ux.github.io',
@@ -20,8 +20,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: 'docusaurus', // Usually your repo name.
+  //organizationName: 'facebook', // Usually your GitHub org/user name.
+  projectName: 'junipa support', // Usually your repo name.
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -64,11 +64,11 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: 'img/docusaurus-social-card.jpg',
+      image: 'img/logo-orange-white.svg',
       navbar: {
-        title: 'My Site',
+        title: 'support',
         logo: {
-          alt: 'My Site Logo',
+          alt: 'Junipa logo',
           src: 'img/logo.svg',
         },
         items: [
@@ -76,13 +76,12 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
-          },
-          {to: '/blog', label: 'Blog', position: 'left'},
+            label: 'Tutorials',
+          },          
           {
-            href: 'https://github.com/facebook/docusaurus',
-            label: 'GitHub',
-            position: 'right',
+            href: 'https://junipa.com.au/updates',
+            label: 'Update',
+            position: 'left',
           },
         ],
       },
@@ -99,35 +98,18 @@ const config = {
             ],
           },
           {
-            title: 'Community',
+            title: 'Business',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
+                label: 'Junipa.com.au',
+                href: 'https://junipa.com.au',
               },
               {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
-              },
+                label: 'Junipa updates',
+                href: 'https://junipa.com.au/updates',
+              }              
             ],
-          },
-          {
-            title: 'More',
-            items: [
-              {
-                label: 'Blog',
-                to: '/blog',
-              },
-              {
-                label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
-              },
-            ],
-          },
+          }          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
       },
