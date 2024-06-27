@@ -22,10 +22,11 @@ jobs:
         run: npm ci
       - name: Build website
         run: npm run build
-
+      - name: Verify build output
+        run: ls -la ./build
       - name: Upload Build Artifact
-        uses: actions/upload-pages-artifact@v3
-        with:
+        uses: actions/upload-artifact@v2
+        with:          
           path: build
 
   deploy:
@@ -42,6 +43,11 @@ jobs:
 
     runs-on: ubuntu-latest
     steps:
+      - name: Download Build Artifact
+        uses: actions/download-artifact@v2
+        with:
+          name: build
+          path: build
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v1
