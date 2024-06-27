@@ -5,4 +5,4 @@ route = "support.junipa.com.au/*"
 main = "workers-site/index.js"
 
 [site]
-bucket = "../build"
+bucket = "./build"
