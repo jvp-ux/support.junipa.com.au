@@ -1,6 +1,6 @@
 name = "support-junipa-com-au"
 type = "webpack"
-account_id = "your-cloudflare-account-id"
+account_id = "71e5f95636a716a506ff09772e89c19d"
 workers_dev = true
 route = "support.junipa.com.au/*"
 main = "workers-site/index.js"
