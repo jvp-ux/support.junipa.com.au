@@ -105,13 +105,13 @@ const config = {
                 href: 'https://junipa.com.au',
               },
               {
-                label: 'Junipa updates',
+                label: 'Updates',
                 href: 'https://junipa.com.au/updates',
               }              
             ],
           }          
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Junipa. Built with Docusaurus.`,
       },
       prism: {
         theme: prismThemes.github,
