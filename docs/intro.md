@@ -35,4 +35,4 @@ Junipa lets you upload evidence straight onto a student's record as part of the 
 6. Select Evidence upload button and use your device's camera/file manager to upload an attachment.
 7. Select save.
 
-> **Congratulations!** You have completed the quick tutorial. For more detailed information, visit the [Student Journal](docs/general#searching-for-a-student) section in the general documentation.
+> **Congratulations!** You have completed the quick tutorial. For more detailed information, visit the [Student Journal](../general#searching-for-a-student) section in the general documentation.
