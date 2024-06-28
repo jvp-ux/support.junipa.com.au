@@ -1,8 +1,0 @@
-name = "support-junipa-com-au"
-account_id = "71e5f95636a716a506ff09772e89c19d"
-workers_dev = true
-route = "support.junipa.com.au/*"
-main = "workers-site/index.js"
-
-[site]
-bucket = "./build"
