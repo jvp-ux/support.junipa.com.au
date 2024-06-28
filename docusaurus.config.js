@@ -4,58 +4,57 @@
 // There are various equivalent ways to declare your Docusaurus config.
 // See: https://docusaurus.io/docs/api/docusaurus-config
 
-import { themes as prismThemes } from "prism-react-renderer";
+import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Junipa support",
-  tagline:
-    "An NCCD (Nationally Consistent Collection of Data) app designed to help schools manage and streamline their data collection, planning, and reporting for students with disabilities.",
-  favicon: "img/favicon.svg",
+  title: 'Junipa support',
+  tagline: 'An NCCD (Nationally Consistent Collection of Data) app designed to help schools manage and streamline their data collection, planning, and reporting for students with disabilities.',
+  favicon: 'img/favicon.svg',
 
   // Set the production url of your site here
-  url: "https://support.junipa.com.au",
+  url: 'https://support.junipa.com.au',
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
-  baseUrl: "/",
+  baseUrl: '/',
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   //organizationName: 'facebook', // Usually your GitHub org/user name.
-  projectName: "junipa support", // Usually your repo name.
+  projectName: 'junipa support', // Usually your repo name.
 
-  onBrokenLinks: "throw",
-  onBrokenMarkdownLinks: "warn",
+  onBrokenLinks: 'throw',
+  onBrokenMarkdownLinks: 'warn',
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: 'en',
+    locales: ['en'],
   },
 
   presets: [
     [
-      "classic",
+      'classic',
       /** @type {import('@docusaurus/preset-classic').Options} */
       ({
         docs: {
-          sidebarPath: "./sidebars.js",
+          sidebarPath: './sidebars.js',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          //   editUrl:
-          //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-        },
+        //   editUrl:
+        //     'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         theme: {
-          customCss: "./src/css/custom.css",
+          customCss: './src/css/custom.css',
         },
       }),
     ],
@@ -65,52 +64,52 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       // Replace with your project's social card
-      image: "img/logo-orange-white.svg",
+      image: 'img/logo-orange-white.svg',
       navbar: {
-        title: "support",
+        title: 'support',
         logo: {
-          alt: "Junipa logo",
-          src: "img/logo.svg",
+          alt: 'Junipa logo',
+          src: 'img/logo.svg',
         },
         items: [
           {
-            type: "docSidebar",
-            sidebarId: "tutorialSidebar",
-            position: "left",
-            label: "Tutorials",
-          },
+            type: 'docSidebar',
+            sidebarId: 'tutorialSidebar',
+            position: 'left',
+            label: 'Tutorials',
+          },          
           {
-            href: "https://junipa.com.au/updates",
-            label: "Update",
-            position: "left",
+            href: 'https://junipa.com.au/updates',
+            label: 'Update',
+            position: 'left',
           },
         ],
       },
       footer: {
-        style: "dark",
+        style: 'dark',
         links: [
           {
-            title: "Docs",
+            title: 'Docs',
             items: [
               {
-                label: "Tutorial",
-                to: "/docs/intro",
+                label: 'Tutorial',
+                to: '/docs/intro',
               },
             ],
           },
           {
-            title: "Business",
+            title: 'Business',
             items: [
               {
-                label: "Junipa.com.au",
-                href: "https://junipa.com.au",
+                label: 'Junipa.com.au',
+                href: 'https://junipa.com.au',
               },
               {
-                label: "Updates",
-                href: "https://junipa.com.au/updates",
-              },
+                label: 'Updates',
+                href: 'https://junipa.com.au/updates',
+              }              
             ],
-          },
+          }          
         ],
         copyright: `Copyright © ${new Date().getFullYear()} Junipa. Built with Docusaurus.`,
       },
