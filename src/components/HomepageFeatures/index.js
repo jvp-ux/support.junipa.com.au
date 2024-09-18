@@ -44,22 +44,22 @@ const FeatureList = [
     ),
   },
   {
-    title: 'Assign an adjustment level to a student',
+    title: 'Administration',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    link: '/docs/general#assign-an-adjustment-level-to-a-student',
+    link: '/docs/administration',
     description: (
-      <a href="/docs/general#assign-an-adjustment-level-to-a-student">
-        For a student to be eligible for an adjustment level they must be enrolled through Junipa.
+      <a href="/docs/administration">
+        Setting up Junipa behind the scenes for your teaching staff.
       </a>
     ),
   },
   {
-    title: 'Change a student\'s adjustment level',
+    title: 'Student Groups',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    link: '/docs/general#change-a-students-adjustment-level',
+    link: '/docs/administration/studentgroups',
     description: (
-      <a href="/docs/general#change-a-students-adjustment-level">
-        For a student to be eligible for an adjustment level they must be enrolled through Junipa.
+      <a href="/docs/administration/studentgroups">
+        Learn how to create and manage student groups in Junipa.
       </a>
     ),
   },
