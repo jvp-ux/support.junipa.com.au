@@ -35,3 +35,13 @@ $ git add .
 $ git commit -m "Deploy updates"
 $ git push origin main
 ```
+
+## Development
+
+This project uses Docusaurus. To start the development server automatically when opening the project in VS Code:
+
+1. Install the "Auto Run Command" extension in VS Code.
+2. Go to File > Preferences > Settings (or press Ctrl+,).
+3. Search for "Auto Run Command".
+4. Click on "Edit in settings.json" under "Auto Run Command: Extension".
+5. Add the following to your `settings.json`:
