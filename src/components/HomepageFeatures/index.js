@@ -6,9 +6,9 @@ const FeatureList = [
   {
     title: 'Searching for a student',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    link: '/docs/general#searching-for-a-student',
+    link: '/docs/tutorials#searching-for-a-student',
     description: (
-      <a href="/docs/general#searching-for-a-student">
+      <a href="/docs/tutorials#searching-for-a-student">
         JUNIPA keeps your information available to you, securely, at all times. Finding a student quickly is important.
       </a>
     ),
@@ -16,9 +16,9 @@ const FeatureList = [
   {
     title: 'Add adjustment evidence as a Teacher',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    link: '/docs/general#add-adjustment-evidence-as-a-teacher',
+    link: '/docs/tutorials#add-adjustment-evidence-as-a-teacher',
     description: (
-      <a href="/docs/general#add-adjustment-evidence-as-a-teacher">
+      <a href="/docs/tutorials#add-adjustment-evidence-as-a-teacher">
         Junipa leverages your school timetable to display what students you are interacting with today.
       </a>
     ),
@@ -26,9 +26,9 @@ const FeatureList = [
   {
     title: 'Add adjustment evidence as a Case Manager',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    link: '/docs/general#add-adjustment-evidence-as-a-case-manager',
+    link: '/docs/tutorials#add-adjustment-evidence-as-a-case-manager',
     description: (
-      <a href="/docs/general#add-adjustment-evidence-as-a-case-manager">
+      <a href="/docs/tutorials#add-adjustment-evidence-as-a-case-manager">
         Junipa leverages your case load, displaying a list of those students you frequently interact with.
       </a>
     ),
@@ -36,9 +36,9 @@ const FeatureList = [
   {
     title: 'Attach files as part of adjustment evidence',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    link: '/docs/general#attach-files-photos-videos-documents-as-part-of-adjustment-evidence',
+    link: '/docs/tutorials#attach-files-photos-videos-documents-as-part-of-adjustment-evidence',
     description: (
-      <a href="/docs/general#attach-files-photos-videos-documents-as-part-of-adjustment-evidence">
+      <a href="/docs/tutorials#attach-files-photos-videos-documents-as-part-of-adjustment-evidence">
         Junipa lets you upload evidence straight onto a student's record as part of the Adding NCCD adjustment workflow.
       </a>
     ),
